@@ -28,7 +28,13 @@ export type DaisyTheme =
   | "lemonade"
   | "night"
   | "coffee"
-  | "winter";
+  | "winter"
+  | "abyss"
+  | "caramellatte"
+  | "dim"
+  | "nord"
+  | "silk"
+  | "sunset";
 
 export type ThemeOption = {
   label: string;
@@ -152,20 +158,49 @@ export const themes: ThemeOption[] = [
     label: "Winter",
     value: "winter",
   },
+  {
+    label: "Abyss",
+    value: "abyss",
+  },
+  {
+    label: "Caramellatte",
+    value: "caramellatte",
+  },
+  {
+    label: "Dark",
+    value: "dark",
+  },
+  {
+    label: "Dim",
+    value: "dim",
+  },
+  {
+    label: "Nord",
+    value: "nord",
+  },
+  {
+    label: "Silk",
+    value: "silk",
+  },
+  {
+    label: "Sunset",
+    value: "sunset",
+  },
 ];
 
 export const darkThemes: DaisyTheme[] = [
-  "synthwave",
-  "retro",
-  "cyberpunk",
-  "valentine",
-  "halloween",
-  "forest",
+  "abyss",
   "aqua",
   "black",
-  "luxury",
-  "dracula",
   "business",
-  "night",
   "coffee",
+  "dark",
+  "dim",
+  "dracula",
+  "forest",
+  "halloween",
+  "luxury",
+  "night",
+  "sunset",
+  "synthwave",
 ];

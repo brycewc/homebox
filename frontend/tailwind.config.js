@@ -31,6 +31,13 @@ export default {
     "theme-night",
     "theme-coffee",
     "theme-winter",
+    "theme-abyss",
+    "theme-caramellatte",
+    "theme-dark",
+    "theme-dim",
+    "theme-nord",
+    "theme-silk",
+    "theme-sunset",
   ],
   prefix: "",
 
